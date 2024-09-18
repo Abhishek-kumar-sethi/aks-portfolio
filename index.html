@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+    <nav class="container-nav" data-aos="fade-down"
+    data-aos-duration="1000">
+        <h1 id="h1">Portfolio <span>.</span></h1>
+        <ion-icon name="menu-outline" id="icon" onclick="add()"></ion-icon>
+        <ul id="ul">
+            <li><a href="#home" id="li" onclick="kaam()">Home</a></li>
+            <li><a href="#about" id="li" onclick="kaam()">About</a></li>
+            <li><a href="#skill" id="li" onclick="kaam()">Skills</a></li>
+            <li><a href="#project" id="li" onclick="kaam()">Project</a></li>
+            <li><a href="#contact" id="li" onclick="kaam()">Contact</a></li>
+        </ul>
+        <div id="dark" class="container-nav-dark">
+            <button id="btn" onclick="work()" id="theme"></button>
+        </div>
+        
+    </nav>
+    <div class="container-home" id="home">
+        <h1><ion-icon name="hand-left-outline" id="ion"></ion-icon> Hey</h1>
+        <span> I'm Abhishek</span>
+        <p>Web frontend developer</p>
+        <a href="#about">
+            <ion-icon name="chevron-down-outline" style="margin-top: 120px;"></ion-icon>
+        </a>
+    </div>
+    <div class="container-about" id="about">
+        <h1>About Me</h1>
+        <div class="container-about-content">
+        <div class="container-about-content-right"  data-aos="fade-up">
+            <!-- <img src="./images/image.png" alt=""> -->
+            <img src="./images/image3.jpg" alt="">
+            <div id="div1">
+                
+            </div>
+        </div>
+        <div class="container-about-content-left">
+            <p>Hey, I'm Abhishek and I'm <span>web frontend developer</span> and I'm currently pursuing BCA (Bachelor of computer application) from <a href="#">IGNOU</a>
+                and I lives in <span>Delhi India.</span> I have done my 12th in arts(Economics) from <a href="#">CBSE</a> board after 12th I start learning in wed dev and create a career as an <span>web developer.</span>
+            </p>
+            <p>In my free time I spend time with my family & friends otherwise I try to learn something new and interesting.</p>
+            <div class="container-about-content-left-section">
+                <div><span>Name : </span><span>Abhishek</span></div>
+                <div><span>age : </span><span>20</span></div>
+                <div><span>address : </span><span>Delhi india</span></div>
+                <div><span>date of birth : </span><span>3 january 2004</span></div>
+                <div><span>Freelancing : </span><span>Available</span></div>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-skills" id="skill">
+        <h1>My skills</h1>
+        <div class="container-skills-content">
+        <div class="container-skills-content-right">
+            <!-- <div class="container-skills-content-right-head">
+                <img src="./images/tech1-removebg-preview.png" alt="">
+            </div> -->
+            <h2>What I know in <span>Frontend</span></h2>
+            <img src="./images/html.png" alt="">
+            <img src="./images/css.png" alt="">
+            <img src="./images/sass.png" alt="">
+            <img src="./images/js.png" alt="">
+            <img src="./images/jquery.png" alt="">
+            <img src="./images/github.png" alt="">
+            <img src="./images/react.png" alt="" style="border-radius: 50px;">
+        </div>
+        <div class="container-skills-content-left">
+            <h2>Minor Project</h2>
+            <button><a href="https://abhishek-kumar-sethi.github.io/todo-list/">todo list</a></button>
+            <button><a href="#">React-Quiz</a></button>
+            <button><a href="#">Expenses-Tracker</a></button>
+            <button><a href="#">Calculator</a></button>
+            <button><a href="#">Digital Clock</a></button>
+            <button><a href="#">Image Slider</a></button>
+            <button><a href="#">Calculator</a></button>
+            <button><a href="#">Digital Clock</a></button>
+            <button><a href="#">Image Slider</a></button>
+        </div>
+    </div>
+    </div>
+    <div class="container-resume">
+            <h2>Check Out my resume!</h2>
+        <button>
+            <span id="res">resume</span>
+            <a href="ABHISHEK KUMAR SETI RESUME.pdf" target="_blank">
+                <ion-icon name="cloud-download-outline" id="down"></ion-icon>
+            </a>
+        </button>
+        <!-- <img src="./images/laptop1.jpg" alt=""> -->
+    </div>
+    <div class="container-project" id="project">
+        <div class="container-project-head">
+            <h1>Project</h1>
+            <h2>What I've Done</h2>
+        </div>
+        <div class="container-project-content">
+            <div class="container-project-content-card" data-aos="zoom-in-up"data-aos-duration="2000"  style="background: url('./images/netflix.png')center/cover;">
+                <div id="div">
+                    <h2 id="h2">Netflix clone</h2>
+                    <p id="p">It's an clone of netflix home page. To made this I used HTM to create a structure and for styling I used CSS and SASS(CSS PRE-PROCESSOR)</p>
+                    <a href="https://abhishek-kumar-sethi.github.io/netify/" id="a">visit site<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                </div>
+            </div>
+            <div class="container-project-content-card"  data-aos="zoom-in-up"data-aos-duration="2000" style="background: url('./images/amz.png')center/cover;">
+                <div id="div">
+                    <h2 id="h2">Amazon clone</h2>
+                    <p id="p">It's an clone of amazon front page. To hade this I used HTML CSS SASS JAVASCRIPT </p>
+                    <a href="https://abhishek-kumar-sethi.github.io/amazon-clone/" id="a">visit site<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                </div>
+            </div>
+            <div class="container-project-content-card" data-aos="zoom-in-up"data-aos-duration="2000"  style="background: url('./images/avatar3.png')center/cover;">
+                <div id="div">
+                    <h2 id="h2">Bootstrap Cards</h2>
+                    <p id="p">A Bootstrap cards i used Bootstrap classes to made this responsive cards</p>
+                    <a href="https://aks-bootstrap-cards.netlify.app/" id="a">visit site<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                </div>
+            </div>
+            <div class="container-project-content-card"  data-aos="zoom-in-up"data-aos-duration="2000" style="background: url('./images/back2.jpg')center/cover;">
+                <img src="images/haze-emo.png" style="position: absolute;" id="img">
+                <div id="div">
+                    <h2 id="h2">Weather Website</h2>
+                    <p id="p">A weather forecasting website. To create this I used HTML CSS SASS JAVASCRIPT and Weathermap.org API.</p>
+                    <a href="https://aks-weather-site.netlify.app/" id="a">visit site<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                </div>
+            </div>
+             <div class="container-project-content-card"  data-aos="zoom-in-up"data-aos-duration="2000" style="background: url('./images/high-tech-website.png')center/cover;">
+                <div id="div">
+                    <h2 id="h2">High-tech-website</h2>
+                    <p id="p">It's IT compnay website I used HTMl SASS Bootstrap to make this </p>
+                    <a href="https://aks-hightech-website.netlify.app/" id="a">visit site<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                </div>
+            </div>  
+             <div class="container-project-content-card"  data-aos="zoom-in-up"data-aos-duration="2000" style="background: url('./images/furni-website.png')center/cover">
+                <div id="div">
+                    <h2 id="h2">Furni-website</h2>
+                    <p id="p">It's Furni-website I built this website using React I also use react style library to build layouts</p>
+                    <a href="https://aks-react-furni-website.netlify.app/" id="a">visit site<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- <div class="container-project-netflix">
+        <div class="container-project-netflix-head">
+            <h2>Netflix Clone</h2>
+        </div>
+        <div>
+            <img src="./images/netflix-img1.png" id="img1">
+            <img src="./images/netflix-img3.png" id="img3">  
+        </div>  
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, repellendus corrupti nulla itaque neque, atque distinctio eveniet quas quod error eum, non saepe ad facere totam deserunt iste. Odio, veritatis cumque. Debitis, odio repellendus earum amet eum eius soluta odit sequi beatae assumenda officia molestias, veritatis, illo saepe reiciendis? Alias!</p>
+        <div class="container-project-netflix-btn">
+        <button>html</button> <button>css</button> <button>sass</button>
+        <button><a href="#">visit site<ion-icon name="arrow-forward-outline"></ion-icon></a></button>
+    </div>
+    </div> -->
+</div>
+<div class="container-contact"data-aos="fade-up"
+data-aos-duration="3000" id="contact">
+    <div class="container-contact-head">
+        <h1>Get In touch </h1>
+        <h2>If you have some work so work together build together<ion-icon name="paper-plane-outline"></ion-icon></h2>
+    </div>
+    <form method="POST" action="form.php" class="container-contact-form">
+        <div>
+            <label for="Name" id="label">Name</label>
+            <input type="text" required name="name">
+        </div>
+        <div>
+            <label for="Email">Email</label>
+            <input type="text" required name="Email">
+        </div>
+        <div>
+            <label for="Subject">Subject</label>
+            <input type="text" required name="subject">
+        </div>
+        <div>
+            <label for="Message">Message</label>
+            <textarea name="Message"></textarea>
+        </div>
+        <button type="submit"><span>Send Message</span></button>
+    </form>
+</div>
+<div class="container-social" >
+    <div class="container-social-icon">
+        <a href="https://github.com/Abhishek-kumar-sethi"><ion-icon name="logo-github"></ion-icon></a>
+    
+    <ion-icon name="logo-linkedin"></ion-icon>
+    <a href="https://wa.me/+919315293300"><ion-icon name="logo-whatsapp"></ion-icon></a>
+    
+    
+    <a href="https://www.instagram.com/a_k_seti/"><ion-icon name="logo-instagram"></ion-icon></a>
+    <a href="https://www.facebook.com/abhishek.sethi.5458"><ion-icon name="logo-facebook"></ion-icon></a>
+    <a href="mailto:abhisheksethi216@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
+    <!-- <a href="mailto:abhisheksethi216@gmail.com">Contact Me</a> -->
+</div>
+    <span><ion-icon name="reload-circle-outline"></ion-icon> Abhishek Sethi 2023</span>
+</div>
+</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
